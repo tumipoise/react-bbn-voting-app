@@ -24,7 +24,7 @@ function SingleHousemate(props){
                     -
                   </button>
                 </div>
-                <input min="5" max="8" value={vote} name="inputVote" onChange={handleChange}
+                <input min="8" max="8" value={vote} name="inputVote" onChange={handleChange}
                   id="nengiInput"
                   type="number"
                   className="form-control inputt"
